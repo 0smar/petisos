@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contacto - Petisos</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	
+	<link rel="icon" type="image/png" href="icon.png">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="nav-bar page-nav">
+		<div class="logo">
+			<a href="index.html"><img src="img/logo.svg" alt="Petisos Jardín de Niños"></a>
+		</div>
+		<div class="menu">	
+			<a href="index.html" class="link-green">Inicio</a>
+			<a href="nosotros.html" class="link-blue">Quienes Somos</a>
+			<a href="vidapetisos.html" class="link-pink">Vida Petisos</a>
+			<a href="contacto.html" class="link-green">Horarios</a>
+			<a href="contacto.html" class="link-blue">Contacto</a>
+		</div>
+		<div class="mobile-menu">
+			<div>MENÚ</div>
+			<div class="burger-menu">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+		</div>
+		<div id="myNav" class="overlay">
+			<div class="overlay-content">
+				<a href="index.html" class="link-green">Inicio</a>
+				<a href="nosotros.html" class="link-blue">Quienes Somos</a>
+				<a href="vidapetisos.html" class="link-pink">Vida Petisos</a>
+				<a href="contacto.html" class="link-green">Horarios</a>
+				<a href="contacto.html" class="link-blue">Contacto</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="section">
+	<div class="description">
+		<div class="school-intro">
+			<div class="header">
+				<img src="img/icon.svg" alt="Petisos">
+				<h2>Horarios</h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="hours">
+		<div class="hours-description">
+			Contamos con los siguientes horarios de atención:
+			<br>
+			<h3>Lunes a Viernes</h3>
+			Horario Regular:
+			<br>
+			<p><b>8:00 a 13:30 hrs.</b></p>
+			<br>
+			Horario Amplio:
+			<br>
+			<p><b>7:00 a 15:30 hrs.</b></p>
+		</div>
+		<img src="img/gal-10.JPG" alt="Horarios Petisos" class="hours-img">
+	</div>
+	
+
+	<div class="description">
+		<div class="school-intro">
+			<div class="header">
+				<img src="img/icon.svg" alt="Petisos">
+				<h2>Contacto</h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="contact-index contact-section">
+		<div class="contact-form">
+			<p>
+				Déjanos un mensaje y pronto nos pondremos en contacto.
+			</p>
+			<form method="POST" action="https://formspree.io/maur@gmail.com" >
+				<div class="form-fields">
+					<input type="text" name="Nombre" placeholder="Nombre" required>
+					<input type="email" name="Correo Electrónico" placeholder="E-mail" required>
+					<input type="text" name="Teléfono" placeholder="Teléfono" required>
+					<textarea placeholder="Mensaje" name="Mensaje" rows="4" required></textarea> 
+				</div>
+				<input type="submit"  value="Enviar">
+				<input type="hidden" name="_next" value="<%= root_path %>" />
+				<input type="hidden" name="_subject" value="Nuevo Mensaje para Petisos" />
+			</form>
+		</div>
+		<div class="contact-info">
+			<p>
+				<h3 class="color-green">Estamos cerca de ti</h3>
+				Benigno Arriaga #640
+				<br>
+				Tequisquiapan
+				<br>
+				CP: 78250
+				<br>
+				San Luis Potosí, SLP.
+			</p>
+			<p>
+				<h3 class="color-pink">¡Llámanos!</h3>
+				01 444 811 3351
+			</p>
+		</div>
+	</div>
+
+	<div class="contact-map">
+		<div id="map-2"></div>
+	</div>
+
+	<div class="contact-bottom-icons">
+		<img src="img/pyramid.svg" alt="Petisos Jardín de Niños">
+		<img src="img/books.svg" alt="Petisos Jardín de Niños">
+		<img src="img/puzzle.svg" alt="Petisos Jardín de Niños">
+		<img src="img/pencils.svg" alt="Petisos Jardín de Niños">
+		<img src="img/ball.svg" alt="Petisos Jardín de Niños">
+	</div>
+
+	<div class="contact-logo">
+		<img src="img/logo.svg" alt="Petisos Jardín de Niños">
+	</div>
+	
+	</div>
+
+	<footer>
+		<div class="links">
+			<div class="links-box">
+				<h3>Petisos</h3>
+				<a href="index.html">Inicio</a>
+				<a href="nosotros.html">Quienes Somos</a>
+				<a href="vidapetisos.html">Vida Petisos</a>
+				<a href="contacto.html">Horarios</a>
+				<a href="contacto.html">Contacto</a>
+			</div>
+			<div class="links-box">
+				<h3>Redes Sociales</h3>
+				<img src="img/facebook.svg" alt="" class="facebook">
+			</div>
+			<div class="links-box">
+				<h3>Contacto</h3>
+				<p>
+					01 444 811 3351
+					<br><br>
+					Benigno Arriaga #640
+					<br>
+					Tequisquiapan
+					<br>
+					San Luis Potosí, SLP.
+				</p>
+			</div>
+		</div>
+
+		<div class="privacy">
+			<a href="privacidad.html">Aviso de Privacidad</a>
+			<img src="img/nuva.svg" alt="Desarrollado por Nuva Rocks" class="nuva">
+		</div>
+	</footer>
+
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script src="js/script.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8jrVSH2-uBlfLx4BUpCQKDdAFSCUtRkI&callback=initMap">
+    </script>
+
+    <script>
+    	function initMap() {
+        var uluru = {lat: 22.1488546, lng: -100.9874192};
+        var map = new google.maps.Map(document.getElementById('map-2'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+</body>
+</html>
