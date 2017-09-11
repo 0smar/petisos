@@ -994,6 +994,10 @@ input[type=submit]{
 		margin-bottom: 0;
 	}
 
+	.section-stages .stage:nth-of-type(2){
+		flex-direction: column;
+	}
+
 }
 
 @media screen and (max-width: 414px) {
@@ -1104,7 +1108,7 @@ input[type=submit]{
 	}
 
 	.section-gallery{
-		height: 90px;
+		height: 84px;
 		margin-bottom: 1em;
 	}
 

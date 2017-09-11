@@ -1,4 +1,7 @@
 $( document ).ready(function() {
+
+	$(document).resize();
+	
 	$(".mobile-menu").click(function () {
 	    $(".overlay").toggleClass('view-overlay');
 	    $(".burger-menu").toggleClass('change');
